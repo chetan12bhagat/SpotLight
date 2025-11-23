@@ -1,0 +1,36 @@
+==================================================
+COPY THESE VALUES TO NETLIFY - EXACT VALUES
+==================================================
+
+Go to: https://app.netlify.com/sites/spottlight/settings/env
+
+Click "Add a variable" for each one below:
+
+--------------------------------------------------
+VARIABLE 1:
+--------------------------------------------------
+Key: VITE_SUPABASE_URL
+Value: https://qpxjjpzgqnxfwdkxqwcr.supabase.co
+
+--------------------------------------------------
+VARIABLE 2:
+--------------------------------------------------
+Key: VITE_SUPABASE_ANON_KEY
+Value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFweGpqcHpncW54Zndka3hxd2NyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzE5MTQ4NzgsImV4cCI6MjA0NzQ5MDg3OH0.Y_mPjdaRJM-Hy-Qb9RMXtDfMwWlwl6Hy-bfholder
+
+--------------------------------------------------
+VARIABLE 3:
+--------------------------------------------------
+Key: VITE_STRIPE_PUBLISHABLE_KEY
+Value: pk_test_51QMholder
+
+==================================================
+AFTER ADDING ALL 3 VARIABLES:
+==================================================
+
+1. Go to: https://app.netlify.com/sites/spottlight/deploys
+2. Click "Trigger deploy" → "Clear cache and deploy site"
+3. Wait 1-2 minutes
+4. Your site will work at: https://spottlight.netlify.app/
+
+==================================================
